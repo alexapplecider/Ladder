@@ -1,0 +1,18 @@
+<svg width="82" height="82" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>play</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(398 -478)">
+<g id="play">
+<g id="Oval">
+<use xlink:href="#path0_stroke" transform="translate(-397 479)" fill="#333333"/>
+</g>
+<g id="Triangle">
+<use xlink:href="#path1_stroke" transform="matrix(6.12323e-17 1 -1 6.12323e-17 -345.667 509.333)" fill="#333333"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 40 81C 62.6437 81 81 62.6437 81 40L 79 40C 79 61.5391 61.5391 79 40 79L 40 81ZM 81 40C 81 17.3563 62.6437 -1 40 -1L 40 1C 61.5391 1 79 18.4609 79 40L 81 40ZM 40 -1C 17.3563 -1 -1 17.3563 -1 40L 1 40C 1 18.4609 18.4609 1 40 1L 40 -1ZM -1 40C -1 62.6437 17.3563 81 40 81L 40 79C 18.4609 79 1 61.5391 1 40L -1 40Z"/>
+<path id="path1_stroke" d="M 10 0L 10.8815 -0.472221L 10 -2.11765L 9.11852 -0.472221L 10 0ZM 20 18.6667L 20 19.6667L 21.6702 19.6667L 20.8815 18.1944L 20 18.6667ZM 0 18.6667L -0.88148 18.1944L -1.67017 19.6667L 0 19.6667L 0 18.6667ZM 9.11852 0.472221L 19.1185 19.1389L 20.8815 18.1944L 10.8815 -0.472221L 9.11852 0.472221ZM 20 17.6667L 0 17.6667L 0 19.6667L 20 19.6667L 20 17.6667ZM 0.88148 19.1389L 10.8815 0.472221L 9.11852 -0.472221L -0.88148 18.1944L 0.88148 19.1389Z"/>
+</defs>
+</svg>
