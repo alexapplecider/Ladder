@@ -1,0 +1,40 @@
+.text-block {
+  width: 945px;
+  padding-top: 60px;
+  margin: 0 auto;
+  & h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 30px;
+    letter-spacing: 0.0117273em;
+    text-transform: uppercase;
+    color: #FF3333;
+  }
+  & h2:nth-child(2n) {
+    margin-top: 50px;
+  }
+  & p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    font-size: 18px;
+    letter-spacing: 0.0117273em;
+    color: #000000;
+  }
+  &__btn {
+    display: inherit;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 52px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.0117273em;
+  }
+}

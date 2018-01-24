@@ -1,0 +1,84 @@
+h2 UI-kit
+section.buttons
+  .container
+    h1 BUTTONS
+    button.btn NORMAL
+    button.btn.btn--md.btn--red NORMAL
+    button.btn.btn--sm.btn--outline NORMAL
+    p .btn .btn--md .btn--sm
+    p .btn--red for red background
+    p .btn--outline for button with borders
+
+section.forms
+  .container
+    .columns
+      h1 INPUTS
+      p Native Form Field
+      input(type='text', placeholder='Native Form Field')
+      p Disabled Form Field
+      input(type='text', placeholder='Native Form Field', disabled='')
+      .single-dropdawn
+        h1 DROPDAWN
+        select.chosen-select(data-placeholder='Choose...')
+          option(value='option') Option 1
+          option(value='option') Option 2
+          option(value='option') Option 3
+
+    .columns
+      h1 CHECKBOX
+      input#input-checkbox1.input-checkbox(type='checkbox')
+      label.checkbox(for='input-checkbox1') Check box - Empty
+      br
+      input#input-checkbox2.input-checkbox(type='checkbox', checked='')
+      label.checkbox(for='input-checkbox2') Check box - Checked
+      br
+      input#input-checkbox3.input-checkbox(type='checkbox', disabled='')
+      label.checkbox(for='input-checkbox3') Check box - Disabled
+      .radio-button
+        h1 RADIOBUTTON
+        input#input-radio1.input-radio(type='radio')
+        label.radio(for='input-radio1') Radio button - Empty
+        br
+        input#input-radio2.input-radio(type='radio', checked='')
+        label.radio(for='input-radio2') Radio button - Selected
+        br
+        input#input-radio3.input-radio(type='radio', disabled='')
+        label.radio(for='input-radio3') Radio button - Disabled
+        br
+        h1 MULTISELECT DROPDAWN
+        select.chosen-select(placeholder='Choose...', multiple='')
+          option(value='')
+          option(value='option') Option 1
+          option(value='option') Option 2
+          option(value='option') Option 3
+          option(value='option') Option 4
+          option(value='option') Option 5
+
+    .columns
+      h1 TEXTAREA
+      p Text area label
+      textarea(name='texarea', cols='30', rows='10')
+      button.btn.btn--md.btn--red SUBMIT
+      br
+      br
+      br
+      br
+      p Standart File Input
+      input#input-file.input-file(type='file', placeholder='Select file')
+      label.label-file(for='input-file')
+        div
+          button.btn.btn--md.file
+            | Select file
+            svg.svg-input-ic(viewbox='0 0 12 13', version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+              title ic_download
+              desc Created using Figma
+              g#Canvas(transform='translate(-1473 -3356)')
+                g#ic_download
+                  g#Shape
+                    use(xlink:href='#path0_fill', transform='translate(1476.18 3356.25)', fill='#FFFFFF')
+                  g#Shape
+                    use(xlink:href='#path1_fill', transform='translate(1473 3358.25)', fill='#FFFFFF')
+              defs
+                path#path0_fill(d='M 0.71 5.65L 0 6.36L 2.83 9.19L 5.66 6.36L 4.95 5.65L 3.32 7.28L 3.32 0L 2.32 0L 2.32 7.26L 0.71 5.65Z')
+                path#path1_fill(d='M 11 8.37444e-06L 7.5 8.37444e-06L 7.5 1.00001L 11 1.00001L 11 9.00001L 1 9.00001L 1 1.00001L 4.5 1.00001L 4.5 8.37444e-06L 1 8.37444e-06C 0.481035 -0.00209734 0.046703 0.393145 0 0.910008L 0 9.09001C 0.046703 9.60687 0.481035 10.0021 1 10L 11 10C 11.519 10.0021 11.9533 9.60687 12 9.09001L 12 0.910008C 11.9533 0.393145 11.519 -0.00209734 11 8.37444e-06Z')
+          span файл не выбран
