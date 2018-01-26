@@ -1,0 +1,45 @@
+.about {
+  background-color: black;
+  padding: 60px 0;
+  padding-bottom: 100px;
+  & .container-full {
+    display: flex;
+    justify-content: center;
+  }
+  & .column:first-child {
+    position: relative;
+    width: 50%;
+    & img {
+      position: absolute;
+      top: 15%;
+      right: 10%;
+    }
+  }
+  & .column:last-child {
+    width: 47%;
+  }
+  & .column:last-child .about__text {
+    width: 457px;
+  }
+  & h2 {
+    margin-bottom: 45px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 30px;
+    letter-spacing: 0.0117273em;
+    text-transform: uppercase;
+    color: #FF3333;
+  }
+  & p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.0117273em;
+
+    color: #FFFFFF;
+  }
+}

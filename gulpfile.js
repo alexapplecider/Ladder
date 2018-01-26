@@ -85,11 +85,11 @@ gulp.task('scripts', function () {
 
 
 // Наблюдение за файлами
-gulp.task('watch', ['browser-sync', 'pug', 'sass', 'scripts'], function () {
+gulp.task('watch', ['browser-sync', 'pug', 'sass'], function () {
   gulp.watch('src/pug/**/*.pug', ['pug']);
   gulp.watch('src/sass/**/*.scss', ['sass']);
   gulp.watch('src/*.html', browserSync.reload);
-  gulp.watch('src/js/*.js', ['scripts']);
+  // gulp.watch('src/js/*.js', ['scripts']);
 });
 
 

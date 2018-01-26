@@ -1,0 +1,78 @@
+.our-team {
+  padding: 60px 0;
+  text-align: center;
+  & .our-team__header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.0117273em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  & .our-team__text {
+    width: 720px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    font-size: 18px;
+    letter-spacing: 0.0117273em;
+    color: #000000;
+  }
+  & .container-inner {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.our-team__teammate {
+  width: 165px;
+  text-align: left;
+  margin-right: 60px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &-img {
+    margin-bottom: 25px;
+  }
+  &-name {
+    margin-bottom: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.0117273em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &-position {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.0117273em;
+    color: #000000;
+  }
+  &-desc {
+    display: block;
+    margin-top: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.0117273em;
+    color: #000000;
+    opacity: 0.7;
+  }
+}

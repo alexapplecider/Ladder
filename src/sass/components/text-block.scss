@@ -1,6 +1,6 @@
 .text-block {
   width: 945px;
-  padding-top: 60px;
+  padding: 60px 0;
   margin: 0 auto;
   & h2 {
     font-family: Open Sans;
@@ -27,6 +27,7 @@
   &__btn {
     display: inherit;
     vertical-align: top;
+    width: 130px;
     margin: 0 auto;
     margin-top: 52px;
     font-family: Open Sans;

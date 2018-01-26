@@ -5,11 +5,13 @@
 	margin: 0 auto;
 	padding: 0 1.28205128%;
 }
-
+a {
+	transition: 0.3s;	
+}
 a:hover {
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
-	color: #1597cf;
+	color: #f33;
 }
 
 p {
