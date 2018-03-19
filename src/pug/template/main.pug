@@ -11,7 +11,11 @@ html(lang="ru-RU")
 		link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet")
 
 		link(rel="stylesheet" href="css/font-awesome.min.css")
-		link(rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css")
+		link(rel="stylesheet" href="css/animate.css")
+
+		//- OWL
+		link(rel="stylesheet" href="owl.carousel/dist/assets/owl.carousel.min.css")
+	
 		link(rel="stylesheet" href="css/chosen.min.css")
 		link(rel="stylesheet" type="text/css" href="css/main.min.css")
 		
@@ -20,13 +24,18 @@ html(lang="ru-RU")
 		include ../components/header-index
 		main.main
 			block content
-		//- include ../components/footer
+		include ../components/footer
 
 		script(src="https://code.jquery.com/jquery-3.1.1.min.js")
 
-		script(src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" type="text/javascript")
-
+		//- OWL
+		//- script(src="jquery/dist/jquery.js" type="text/javascript")
+		script(src="owl.carousel/dist/owl.carousel.min.js" type="text/javascript")
+		//- WOW
+		script(src="js/wow.min.js" type="text/javascript")
+		//- Chosen
 		script(src="js/chosen.jquery.min.js" type="text/javascript")
-		script(src="js/chosen-init.js" type="text/javascript")
+		script(src="js/chosen.init.js" type="text/javascript")
+
+		//- script(src="js/main.js" type="text/javascript")
 		script(src="js/script.js" type="text/javascript")
-		script(src="js/main.js" type="text/javascript")
